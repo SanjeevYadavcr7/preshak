@@ -3,11 +3,18 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const connectDB = require('./config/db');    // including database
 const path = require('path');
+const cors = require('cors');
+
 
 connectDB();  // calling database connection function
 
 app.use(express.static('public'));   // including static middleware (for static html and css files)
 app.use(express.json());  // to enable data reception by express server as json data
+
+
+//Cors
+const corsOptions = {origin: process.env.ALLOWED_CLIENTS.split(',')}
+app.use(cors(corsOptions));
 
 
 // setting up Template engine
