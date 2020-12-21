@@ -29,6 +29,17 @@ Steps to complete File Sharing App
 13. Create download route(in download.js)
 
 14. Create Email send feature
-    -  create a post '/send' request for sending Email
+    - create a post '/send' request for sending Email
+    - create a new emailService in (services/emailService.js) for sending emailService
+    - configure emailService using SendinBlue SMTP
+    - create an email template(emailTemplate.js)
+    - sendmail using '/send' request integrating emailService along emailTemplate
 
-15. Create a new emailService in (services/emailService.js) for sending emailService
+15. Host project on heroku
+    - make a repo on github and push your code in repective repo
+    - create an app on heroku
+    - connect heroku with github 
+    - reconfigure variables in heroku
+    - deploy project/branch
+
+16. Setup Cors
