@@ -19,6 +19,6 @@
 ## <h3>Setup</h3>
 ```
 $ yarn
-$ yarn dev && yarn watch
+$ yarn dev
 ```
 
