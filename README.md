@@ -3,20 +3,18 @@
 <img src="https://github.com/SanjeevYadavcr7/preshak/blob/main/preshak_git.png" width="700px" height="430px" align="center" style="border:1px solid" alt="Godam">
 
 ## <h3>Project Features</h3>
-- [x] Authentication
-- [x] Profile section for customer/seller
-- [x] Product Listing + Adding + Removing items
-- [x] Add-To-Cart feature   
-- [x] Subtotal Pricing
-- [x] Status Monitoring(placed, confirmed, delivered etc.)
-- [ ] Responsiveness
+- [x] File Upload
+- [x] Email Specification
+- [x] Send files to gmail 
+- [x] Automatic notifications
+- [x] Responsiveness
 
 ## <h3> Technologies </h3>
 - [x] NodeJS v12.18.3(for dev environment) <br/>
 - [x] MongoDB v3.6.3(for database stuff) <br/>
 - [x] Express v4.17.1(for handling HTTP requests) <br/>
 - [x] Ejs v3.1.5(as template engine)<br/>
-- [x] Socket.io v3.0.3(for real-time comm) <br/>
+- [x] Multer v1.4.2(for handling "multipart/form-data") <br/>
 
 ## <h3>Setup</h3>
 ```
