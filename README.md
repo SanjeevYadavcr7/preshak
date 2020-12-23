@@ -1,6 +1,6 @@
 <h1>Preshak | File Sharing WebApp</h1>
-<p>Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"><br/><br/>Preshak is a file sharing web application :computer:, the application helps to send files in real-time :rocket:</p> You can visit <a href="https://godam-shopping-app.herokuapp.com/">Godam here</a><br/><br/>
-<img src="https://github.com/SanjeevYadavcr7/preshak/blob/main/preshak_git.png" width="800px" height="490px" align="center" style="border:1px solid" alt="Godam">
+<p>Hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"><br/><br/>Preshak is a file sharing web application :computer:, the application helps to send files in real-time :rocket:</p> You can visit <a href="https://preshak.herokuapp.com/">Preshak here</a><br/><br/>
+<img src="https://github.com/SanjeevYadavcr7/preshak/blob/main/preshak_git.png" width="700px" height="490px" align="center" style="border:1px solid" alt="Godam">
 
 ## <h3>Project Features</h3>
 - [x] Authentication
