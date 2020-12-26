@@ -5,7 +5,7 @@ const { route } = require('./files');
 router.get('/:uuid', async (req,res)=> {
     const file = await File.findOne({uuid: req.params.uuid});
     if(!file){
-        return res.render('download', {error: 'Link has been expired'});
+        return res.render('newdownload', {error: 'Link has been expired'});
     }
 
     const filePath = `${__dirname}/../${file.path}`;   //obtaining the filePath
